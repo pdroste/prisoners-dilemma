@@ -2,13 +2,14 @@
 # -*- coding: utf-8 -*-
 
 """
-Abstract strategy class template for external factors influencing the
+Abstract class template for external factors influencing the
 prisoner's dilemma problem.
 
 License: MIT License
 """
 
 from abc import ABC, abstractmethod
+
 
 class ExternalFactors(ABC):
 
