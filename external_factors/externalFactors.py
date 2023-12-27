@@ -35,7 +35,7 @@ class ExternalFactors(ABC):
         pass
 
     @abstractmethod
-    def change_result(self):
+    def change_result(self, move, *args):
         """
         Method for changing the result of a contestant's move in the eyes of
         both contestants.
